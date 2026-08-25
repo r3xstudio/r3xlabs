@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>VPS for AI Automation: Building an Always-On Jarvis System — R3X Labs</title>
+  <meta name="description" content="Learn how a VPS can become an always-on automation layer for a personal AI system like Jarvis, with execution, memory, APIs, scheduled jobs and remote workflows.">
+  <link rel="canonical" href="https://r3xlabs.com/guides/vps-automation-jarvis/">
+  <meta property="og:title" content="VPS for AI Automation: Building an Always-On Jarvis System">
+  <meta property="og:description" content="How to use a VPS as the always-on infrastructure behind a personal AI command center, automation layer and persistent memory system.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://r3xlabs.com/guides/vps-automation-jarvis/">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="/styles.css">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-JB53B9JR87"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-JB53B9JR87');</script>
+  <script type="application/ld+json">{
+    "@context":"https://schema.org",
+    "@type":"Article",
+    "headline":"VPS for AI Automation: Building an Always-On Jarvis System",
+    "description":"A practical architecture for using a VPS as the always-on automation layer behind Jarvis, with execution, memory, APIs and scheduled workflows.",
+    "datePublished":"2026-08-25",
+    "dateModified":"2026-08-25",
+    "author":{"@type":"Organization","name":"R3X Labs"},
+    "publisher":{"@type":"Organization","name":"R3X Labs"},
+    "mainEntityOfPage":"https://r3xlabs.com/guides/vps-automation-jarvis/"
+  }</script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="R3X Labs home"><span class="brand-mark">R3X</span><span class="brand-sub">LABS</span></a>
+    <nav class="nav"><a href="/tools/">Tools</a><a href="/guides/">Guides</a><a href="/prompts/">Prompts</a><a href="/signal/">Signal</a></nav>
+  </header>
+
+  <main>
+    <article class="article-shell">
+      <header class="article-hero">
+        <div class="eyebrow">R3X LABS / FIELD GUIDE / AUTOMATION</div>
+        <h1>VPS for AI Automation: Building an Always-On Jarvis System</h1>
+        <p class="article-deck">A personal AI assistant becomes much more useful when it can run while your laptop is closed. A VPS gives Jarvis a persistent place to execute automations, call APIs, store state and coordinate long-running workflows.</p>
+        <div class="article-meta">Published 25 Aug 2026 · 10 min read</div>
+      </header>
+
+      <div class="article-layout">
+        <aside class="article-toc">
+          <span class="panel-label">IN THIS GUIDE</span>
+          <a href="#what-is-vps">What is a VPS?</a>
+          <a href="#why">Why automation needs one</a>
+          <a href="#jarvis">What Jarvis actually is</a>
+          <a href="#architecture">The architecture</a>
+          <a href="#runs">What runs on the VPS</a>
+          <a href="#memory">Persistent memory</a>
+          <a href="#security">Security basics</a>
+          <a href="#start-small">Start small</a>
+        </aside>
+
+        <div class="article-body">
+          <p class="lead">The biggest limitation of a local automation setup is simple: it stops when the computer stops. A VPS changes that. It gives your automation system a small computer on the internet that can stay online 24/7 and execute work independently of your desktop.</p>
+
+          <h2 id="what-is-vps">What is a VPS?</h2>
+          <p>A VPS — Virtual Private Server — is a virtual machine hosted in a data center. You normally access it remotely over SSH and run services on it just like you would on a small Linux computer.</p>
+          <p>For automation, the important properties are not raw performance. They are persistence and availability.</p>
+          <div class="code-card">YOUR LAPTOP = temporary workspace<br>VPS = always-on automation layer</div>
+          <p>The server can continue running scheduled jobs, webhooks, API calls, scripts and background services even when you are offline.</p>
+
+          <h2 id="why">Why an automation system benefits from a VPS</h2>
+          <p>Many useful automations are not one-click tasks. They need to wait, check, retry, schedule or respond to an event later.</p>
+          <ul>
+            <li>Run scheduled jobs every morning.</li>
+            <li>Watch for changes and trigger a workflow.</li>
+            <li>Call external APIs without keeping a desktop session open.</li>
+            <li>Process files in the background.</li>
+            <li>Maintain databases, queues and logs.</li>
+            <li>Expose a private API endpoint for your own tools.</li>
+            <li>Coordinate multiple automation services in one place.</li>
+          </ul>
+          <p>That is the shift from using AI as a chat window to using AI as part of an operating system.</p>
+
+          <h2 id="jarvis">Jarvis is not the model</h2>
+          <p>In this architecture, Jarvis is the command center and interface. It is the layer that understands what you want to achieve, keeps projects organized and decides what should happen next.</p>
+          <p>The language model is only one component.</p>
+          <div class="code-card">JARVIS = command center<br>AI MODEL = reasoning engine<br>HERMES = execution layer<br>NEXUS = persistent memory<br>VPS = always-on infrastructure</div>
+          <p>This separation matters because each component can evolve independently. The model can change without rebuilding the memory system. The execution layer can gain new tools without changing the interface. The VPS keeps the whole system available.</p>
+
+          <h2 id="architecture">A practical Jarvis architecture</h2>
+          <p>The target system can be thought of as five connected layers.</p>
+
+          <h3>1. Jarvis — command center</h3>
+          <p>Jarvis receives goals, remembers priorities, breaks large projects into smaller steps and tells you what matters today. It is the human-facing layer of the system.</p>
+
+          <h3>2. Hermes — execution layer</h3>
+          <p>Hermes is responsible for doing work. It can route tasks to Python scripts, APIs, browser automation, files or other tools. Jarvis decides; Hermes executes.</p>
+
+          <h3>3. Nexus / Obsidian — memory</h3>
+          <p>A useful assistant needs durable context: projects, ideas, decisions, routines and reference material. Nexus is the memory layer, with Obsidian as a practical human-readable knowledge base.</p>
+
+          <h3>4. AI model — reasoning</h3>
+          <p>The reasoning model can come from a cloud API or a local model. The architecture should not depend on one provider. OpenAI, Gemini, Claude-class APIs or a local inference layer can all fill the same conceptual role.</p>
+
+          <h3>5. VPS — infrastructure</h3>
+          <p>The VPS runs the parts that must stay alive: schedulers, services, workers, automation scripts, databases and API endpoints.</p>
+
+          <div class="code-card">YOU<br>↓<br>JARVIS — intent, priorities, interface<br>↓<br>HERMES — execution and tools<br>↙          ↓          ↘<br>NEXUS     PYTHON      APIs / SERVICES<br>MEMORY     WORKERS<br>\__________ VPS __________/</div>
+
+          <h2 id="runs">What should actually run on the VPS?</h2>
+          <p>Do not move everything to a server. Put only the persistent and automatable parts there.</p>
+          <ul>
+            <li><strong>Schedulers:</strong> recurring jobs and timed workflows.</li>
+            <li><strong>Python workers:</strong> scripts that process data or files.</li>
+            <li><strong>API services:</strong> small endpoints that Jarvis or other tools can call.</li>
+            <li><strong>Automation engine:</strong> workflow orchestration when multiple services must be connected.</li>
+            <li><strong>Database or state store:</strong> task status, logs and structured memory.</li>
+            <li><strong>Monitoring:</strong> enough logging to know when a workflow fails.</li>
+          </ul>
+          <p>Heavy desktop applications, design software and GPU-intensive local tools do not automatically belong on the VPS. The server should coordinate work, not become a remote copy of your entire workstation.</p>
+
+          <h2>Example: from idea to automatic execution</h2>
+          <p>Imagine telling Jarvis:</p>
+          <div class="prompt-box"><strong>GOAL</strong><br><br>Every morning, review my active projects, identify the three highest-priority actions, check whether any scheduled automation failed overnight, and prepare a short operating brief.</div>
+          <p>The system can translate that into a repeatable pipeline:</p>
+          <div class="code-card">SCHEDULE<br>↓<br>READ PROJECT STATE<br>↓<br>CHECK AUTOMATION LOGS<br>↓<br>ASK MODEL TO PRIORITIZE<br>↓<br>WRITE DAILY BRIEF<br>↓<br>DELIVER RESULT</div>
+          <p>The key difference is that the workflow begins automatically. You do not need to remember to open an app and ask for it every day.</p>
+
+          <h2 id="memory">Why persistent memory changes the system</h2>
+          <p>A stateless assistant can answer a question. A persistent assistant can operate around ongoing projects.</p>
+          <p>Jarvis should be able to retain structured information such as:</p>
+          <ul>
+            <li>active projects,</li>
+            <li>project status,</li>
+            <li>decisions already made,</li>
+            <li>next actions,</li>
+            <li>ideas waiting for review,</li>
+            <li>recurring routines,</li>
+            <li>automation history.</li>
+          </ul>
+          <p>This does not mean sending your entire knowledge base to an AI model every time. The better pattern is retrieval: fetch only the context needed for the current task.</p>
+
+          <h2>Local computer vs VPS</h2>
+          <div class="prompt-box"><strong>LOCAL COMPUTER</strong><br>Best for: development, visual tools, debugging, manual work, GPU applications.<br><br><strong>VPS</strong><br>Best for: scheduled jobs, web services, APIs, persistent workers, remote access, databases, monitoring and always-on automation.</div>
+          <p>The two environments complement each other. Build and test locally. Move stable background services to the VPS when they need to run continuously.</p>
+
+          <h2 id="security">Security basics before connecting everything</h2>
+          <p>An automation server can hold API keys and access important services, so convenience must not come before basic security.</p>
+          <ul>
+            <li>Use SSH keys instead of password-only access.</li>
+            <li>Keep the operating system and packages updated.</li>
+            <li>Store secrets in environment variables or a secrets manager, not directly in source code.</li>
+            <li>Expose only the network ports that are actually required.</li>
+            <li>Use HTTPS for public endpoints.</li>
+            <li>Keep backups of important configuration and persistent data.</li>
+            <li>Log automation failures and unusual behavior.</li>
+          </ul>
+          <p>The more accounts Jarvis can reach, the more important permission boundaries become. Give each automation only the access it needs.</p>
+
+          <h2 id="start-small">Do not build the final Jarvis first</h2>
+          <p>The correct first version is small.</p>
+          <div class="code-card">PHASE 1<br>VPS + Python + one scheduled automation<br><br>PHASE 2<br>persistent memory + project state<br><br>PHASE 3<br>Hermes execution layer + more tools<br><br>PHASE 4<br>Jarvis command center + voice / richer interface</div>
+          <p>One reliable automation is more valuable than a complex agent that fails unpredictably.</p>
+
+          <h2>The real goal</h2>
+          <p>The goal is not to recreate a science-fiction assistant. It is to reduce cognitive and operational overhead.</p>
+          <p>A useful Jarvis should remember projects, surface priorities, break large goals into concrete actions and execute repeatable work through an automation layer. The VPS is what allows that system to keep operating when you are not sitting in front of the computer.</p>
+
+          <div class="article-endcap">
+            <span class="kicker">R3X AUTOMATION SERIES</span>
+            <h3>From chatbot to operating system.</h3>
+            <p>The next step is to document the practical VPS stack: operating system, Docker, Python services, scheduling, secrets, backups and the first Jarvis automation.</p>
+            <a class="text-link" href="/guides/">Explore more field guides →</a>
+          </div>
+        </div>
+      </div>
+    </article>
+  </main>
+
+  <footer>
+    <div><strong>R3X LABS</strong><br><span>Build What's Next.</span></div>
+    <div class="footer-links"><a href="/tools/">Tools</a><a href="/guides/">Guides</a><a href="/prompts/">Prompts</a></div>
+    <div>© 2026 R3X Labs</div>
+  </footer>
+</body>
+</html>
