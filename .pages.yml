@@ -1,0 +1,108 @@
+media:
+  - name: prompt_images
+    label: Prompt images
+    input: assets/prompts
+    output: /assets/prompts
+    extensions: [jpg, jpeg, png, webp]
+    categories: [image]
+    rename: safe
+
+content:
+  - name: r3x_content
+    label: R3X Labs CMS
+    type: group
+    items:
+      - name: prompts
+        label: Prompts
+        type: collection
+        path: content/prompts
+        format: json
+        filename: "{slug}.json"
+        operations:
+          create: true
+          rename: true
+          delete: true
+        view:
+          primary: title
+          sort: published_date
+          order: desc
+          fields: [title, category, published, published_date]
+        fields:
+          - name: title
+            label: Title
+            type: string
+            required: true
+          - name: slug
+            label: Slug
+            type: string
+            required: true
+            pattern:
+              regex: "^[a-z0-9-]+$"
+              message: Use lowercase letters, numbers and hyphens only.
+            description: Example: phoenix-reborn-transformation
+          - name: category
+            label: Category
+            type: select
+            required: true
+            default: Cinematic & Character
+            options:
+              values:
+                - Cinematic & Character
+                - Typography & 3D
+                - Product Photography
+                - Logo & Branding
+                - Illustration
+                - Ecommerce
+                - Creator Systems
+                - Analysis & Research
+          - name: description
+            label: Short description
+            type: text
+            required: true
+          - name: image
+            label: Result image
+            type: image
+            options:
+              media: prompt_images
+              extensions: [jpg, jpeg, png, webp]
+              rename: safe
+          - name: image_alt
+            label: Image alt text
+            type: string
+          - name: prompt
+            label: Full prompt
+            type: text
+            required: true
+          - name: negative_prompt
+            label: Negative prompt
+            type: text
+          - name: why_it_works
+            label: Why it works
+            type: text
+          - name: best_use_cases
+            label: Best use cases
+            type: text
+          - name: seo_title
+            label: SEO title
+            type: string
+          - name: meta_description
+            label: Meta description
+            type: text
+          - name: published_date
+            label: Publish date
+            type: date
+            options:
+              format: yyyy-MM-dd
+          - name: published
+            label: Published
+            type: boolean
+            default: true
+
+settings:
+  commit:
+    identity: user
+    templates:
+      create: "cms: add {filename}"
+      update: "cms: update {filename}"
+      delete: "cms: delete {filename}"
+      rename: "cms: rename {oldFilename} to {filename}"
