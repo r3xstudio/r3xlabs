@@ -1,0 +1,16 @@
+{
+  "title": "Patchwork Cowhide Letter A",
+  "slug": "patchwork-cowhide-letter-a",
+  "category": "Typography & 3D",
+  "description": "Prompt-to-result study for dimensional typography using cowhide, suede, stitching and brass details.",
+  "image": "/assets/prompts/patchwork-cowhide-letter-a.webp",
+  "image_alt": "AI generated 3D capital letter A made from patchwork cowhide, olive suede, stitched seams and brass rivets",
+  "prompt": "Create a high-resolution 3D capital letter ‘A’ constructed from patchwork panels inspired by luxury cowhide and suede leather.\n\nSTRICT MATERIAL PRESERVATION:\n– irregular patchwork composition, visible stitched seams between panels, realistic thread tension and seam depth, natural edge finishing — slightly raw but refined.\n\nTEXTURES: authentic cowhide fur texture with natural brown, white and black spotted patterns, olive green suede leather panels, clear contrast between hairy fur surface and matte suede, visible grain, fiber direction and natural imperfections, no smoothing, no plastic effect.\n\nCONSTRUCTION DETAILS: panels must look hand-stitched together, subtle brass rivet details — minimal and elegant — dimensional thickness, not flat typography, sculptural, slightly rounded volume.\n\nLIGHTING: fashion editorial studio lighting, soft diffused key light, gentle shadow sculpting to enhance fur depth, subtle highlight on suede texture, luxury product photography style.\n\nBACKGROUND: fully transparent background — PNG alpha — isolated object only.\n\nQUALITY: ultra realistic, macro texture detail, high fashion campaign aesthetic, no distortion of letter proportions.",
+  "negative_prompt": "",
+  "why_it_works": "The prompt separates the job into material, construction, lighting, background and quality constraints. That reduces ambiguity and helps the model preserve the design language instead of collapsing everything into a generic leather texture.",
+  "best_use_cases": "Dimensional typography, monograms, editorial product graphics, apparel artwork, poster elements, logo experiments and material-based alphabet systems.",
+  "seo_title": "Patchwork Cowhide Letter A — AI Image Prompt & Result — R3X Labs",
+  "meta_description": "A complete AI image prompt for creating a high-resolution 3D capital letter A made from patchwork cowhide, suede, stitched seams and brass rivets, with the generated result.",
+  "published_date": "2026-08-25",
+  "published": true
+}
