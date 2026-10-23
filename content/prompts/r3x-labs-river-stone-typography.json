@@ -1,0 +1,16 @@
+{
+  "title": "R3X Labs River Stone Typography",
+  "slug": "r3x-labs-river-stone-typography",
+  "category": "Typography & 3D",
+  "description": "Architectural letters assembled from naturally rounded river stones in warm neutral tones.",
+  "image": "/assets/prompts/r3x-labs-river-stone.webp",
+  "image_alt": "R3X LABS block letters assembled from smooth beige and gray river stones",
+  "prompt": "Create the exact text “R3X LABS” as large freestanding block letters constructed entirely from smooth naturally rounded river stones and weathered pebbles. Arrange “R3X” on the top row and “LABS” on the bottom.\n\nEach letter must be structurally clear and readable, built from individually shaped stones in ivory, warm beige, pale gray, limestone and soft taupe. Show natural pores, tiny cracks, mineral veins, worn edges and realistic weight. Stones should appear carefully stacked with believable balance and small gaps, forming clean counters and negative spaces.\n\nUse a seamless pale-gray studio background and matte-white surface, soft diffused lighting, gentle contact shadows, minimalist luxury product photography and tactile photorealism.\n\nTEXT REQUIREMENT: the structure must clearly read exactly “R3X LABS”. No extra text, no random characters.",
+  "why_it_works": "The prompt turns each glyph into an architectural stack instead of simply applying a stone texture. Color range, stone scale, negative space and gravity cues help preserve believable construction.",
+  "best_use_cases": "Nature branding, wellness graphics, architectural typography, eco campaigns, tactile lettering studies and minimalist product-style artwork.",
+  "negative_prompt": "",
+  "seo_title": "R3X Labs River Stone Typography — AI Image Prompt & Result — R3X Labs",
+  "meta_description": "Architectural letters assembled from naturally rounded river stones in warm neutral tones.",
+  "published_date": "2026-10-23",
+  "published": true
+}

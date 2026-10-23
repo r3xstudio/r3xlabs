@@ -1,0 +1,16 @@
+{
+  "title": "R3X Labs Stitched Leather Typography",
+  "slug": "r3x-labs-stitched-leather-typography",
+  "category": "Typography & 3D",
+  "description": "Padded brown leather block letters with natural grain, tan edge trim and cream stitching.",
+  "image": "/assets/prompts/r3x-labs-stitched-leather.webp",
+  "image_alt": "R3X LABS padded cognac brown leather block letters with cream saddle stitching",
+  "prompt": "Create the exact text “R3X LABS” as bold uppercase collegiate block letters arranged “R3X” above “LABS”.\n\nConstruct every character from premium handcrafted dark cognac-brown leather with authentic natural grain, pores and subtle tonal variation. Give the letters thick padded embossed volume, softly rounded beveled edges and raised smooth tan leather piping around the perimeter.\n\nAdd precise cream saddle stitching around the inner perimeter of each letter, with realistic thread tension, individual stitch detail and artisan construction. Use subtle highlights and soft cast shadows, centered isolated composition on a clean white studio background, photorealistic material rendering and crisp high-end product photography.\n\nTEXT REQUIREMENT: show only the exact readable text “R3X LABS”. No extra lettering or logos.",
+  "why_it_works": "The prompt combines leather grain, padding, piping and stitching as independent construction cues. That makes the result feel manufactured and tactile rather than like a simple leather texture mapped onto text.",
+  "best_use_cases": "Fashion branding, western and heritage graphics, premium monograms, patches, apparel artwork, product labels and handcrafted identity concepts.",
+  "negative_prompt": "",
+  "seo_title": "R3X Labs Stitched Leather Typography — AI Image Prompt & Result — R3X Labs",
+  "meta_description": "Padded brown leather block letters with natural grain, tan edge trim and cream stitching.",
+  "published_date": "2026-10-23",
+  "published": true
+}

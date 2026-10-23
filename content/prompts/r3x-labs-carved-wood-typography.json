@@ -1,0 +1,16 @@
+{
+  "title": "R3X Labs Carved Wood Typography",
+  "slug": "r3x-labs-carved-wood-typography",
+  "category": "Typography & 3D",
+  "description": "Massive letters carved from raw timber with bark edges, exposed grain, cracks and living moss.",
+  "image": "/assets/prompts/r3x-labs-carved-wood.webp",
+  "image_alt": "R3X LABS carved timber letters with bark edges wood grain cracks and green moss",
+  "prompt": "Create the exact text “R3X LABS” as massive 3D letters carved from raw natural tree trunks, arranged “R3X” above “LABS”.\n\nEach character should look cut from a single slab of timber with warm honey-colored fresh wood grain on the front face, deep carved counters, irregular natural bark wrapping the outer edges, knots, saw marks, cracks and splintered details. Add small patches of vivid green forest moss growing naturally along bark edges, corners and cracks.\n\nPreserve thick dimensional volume and strong readable letter shapes. Isolate the typography on a clean white studio background with soft diffused lighting, subtle grounding shadow and ultra-detailed photoreal wood and bark textures.\n\nTEXT REQUIREMENT: show the exact readable text “R3X LABS”. No extra text or symbols.",
+  "why_it_works": "The prompt distinguishes front-face wood, bark edge, carving depth and moss placement. That layered construction produces a convincing object instead of a flat wood-filled font.",
+  "best_use_cases": "Outdoor branding, nature campaigns, rustic product graphics, environmental posters, woodcraft concepts and dimensional logo studies.",
+  "negative_prompt": "",
+  "seo_title": "R3X Labs Carved Wood Typography — AI Image Prompt & Result — R3X Labs",
+  "meta_description": "Massive letters carved from raw timber with bark edges, exposed grain, cracks and living moss.",
+  "published_date": "2026-10-23",
+  "published": true
+}

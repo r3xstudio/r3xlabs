@@ -1,0 +1,16 @@
+{
+  "title": "R3X Labs Metal Water Logo",
+  "slug": "r3x-labs-metal-water-logo",
+  "category": "Logo & Branding",
+  "description": "Aggressive metallic 3D typography wrapped in a high-energy water vortex with electric-blue highlights.",
+  "image": "/assets/prompts/r3x-labs-metal-water.webp",
+  "image_alt": "R3X LABS metallic 3D logo surrounded by a blue water vortex on a black background",
+  "prompt": "Create a premium square 3D typographic logo reading exactly “R3X LABS”. Use custom aggressive angular, shark-fin-inspired letterforms, dark gunmetal and chrome surfaces, razor-sharp beveled edges, deep extrusion, electric cyan-blue rim lights and reflective wet-metal highlights.\n\nWrap the full wordmark in a circular explosive water vortex: curling waves, suspended droplets, splash crowns, micro mist and transparent water sheets crossing behind and partially in front of the letters.\n\nUse a pure black cinematic background, centered composition, high contrast, dramatic studio lighting, ultra-detailed PBR metal and physically believable liquid simulation, crisp reflections and premium sports/esports identity styling.\n\nTEXT REQUIREMENT: the only main text must read exactly “R3X LABS”. Keep every character clearly readable. No extra words, no misspellings, no substituted letters.",
+  "why_it_works": "The prompt separates typography, metal treatment, liquid motion and lighting into explicit constraints. The exact-text instruction keeps the visual experiment focused on a usable R3X Labs wordmark rather than decorative pseudo-lettering.",
+  "best_use_cases": "Logo experiments, esports-style identities, music graphics, tech branding, poster titles, social headers and high-energy campaign visuals.",
+  "negative_prompt": "",
+  "seo_title": "R3X Labs Metal Water Logo — AI Image Prompt & Result — R3X Labs",
+  "meta_description": "Aggressive metallic 3D typography wrapped in a high-energy water vortex with electric-blue highlights.",
+  "published_date": "2026-10-23",
+  "published": true
+}

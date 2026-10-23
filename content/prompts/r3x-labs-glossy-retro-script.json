@@ -1,0 +1,16 @@
+{
+  "title": "R3X Labs Glossy Retro Script",
+  "slug": "r3x-labs-glossy-retro-script",
+  "category": "Logo & Branding",
+  "description": "Cream-and-purple high-gloss script lettering with deep extrusion and retro sign-making character.",
+  "image": "/assets/prompts/r3x-labs-glossy-script.webp",
+  "image_alt": "R3X LABS glossy cream script logo with deep purple outline and raised sign construction",
+  "prompt": "Create a premium dimensional script logo reading exactly “R3X LABS”. Arrange “R3X” above “LABS” as a tightly interlocked hand-lettered composition with bold retro calligraphic strokes, exaggerated swashes, smooth curves and sharp ornamental terminals.\n\nMake the main letter faces glossy warm ivory and cream enamel with rounded inflated volume and strong specular highlights. Add a thick deep-purple outline and extruded backing layer following every curve to create a raised custom-sign effect.\n\nPlace the logo on a pale warm wood-panel background with soft sunlight streaks and gentle realistic cast shadows. Use a high-end 3D sign render, polished candy-like surface and clean premium composition.\n\nTEXT REQUIREMENT: the logo must read exactly “R3X LABS”. No other words, no spelling changes, no random characters.",
+  "why_it_works": "The prompt treats lettering, face material, outline and backing as separate physical layers. That creates the dimensional sign-making look and prevents the purple from simply becoming a flat stroke.",
+  "best_use_cases": "Retro branding, apparel logos, sticker concepts, music graphics, shop signage, social media branding and polished typographic marks.",
+  "negative_prompt": "",
+  "seo_title": "R3X Labs Glossy Retro Script — AI Image Prompt & Result — R3X Labs",
+  "meta_description": "Cream-and-purple high-gloss script lettering with deep extrusion and retro sign-making character.",
+  "published_date": "2026-10-23",
+  "published": true
+}

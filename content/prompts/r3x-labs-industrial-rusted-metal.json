@@ -1,0 +1,16 @@
+{
+  "title": "R3X Labs Industrial Rusted Metal",
+  "slug": "r3x-labs-industrial-rusted-metal",
+  "category": "Typography & 3D",
+  "description": "Heavy industrial block typography with corroded steel, rust, peeling paint and hazard stripes.",
+  "image": "/assets/prompts/r3x-labs-industrial-metal.webp",
+  "image_alt": "R3X LABS heavy rusted steel 3D typography with black and yellow hazard stripes",
+  "prompt": "Create the exact text “R3X LABS” as huge bold industrial block-style 3D typography, arranged “R3X” above “LABS”.\n\nConstruct the letters from heavy weathered steel plates with thick beveled frame edges and deep extrusion. Surface treatment: dark oxidized steel, peeling gray paint, layered orange-brown rust, exposed raw metal, corrosion pits, scratches, dents and chipped edges.\n\nAcross the lower portion of each letter add worn black-and-yellow diagonal industrial hazard stripes, faded and scratched into the surface. Tiny distressed factory markings may appear only as subtle texture accents and must never compete with the main wording.\n\nUse a dark charcoal seamless studio background, soft rim light, dramatic shadows, hyper-realistic PBR materials and a centered premium product render.\n\nTEXT REQUIREMENT: the only dominant wording must read exactly “R3X LABS”. Keep all letters fully readable. No additional headline text.",
+  "why_it_works": "The effect depends on layered aging: raw steel, oxidized paint, rust, edge damage and hazard markings. Defining each layer separately produces richer corrosion than a generic 'rusty metal' instruction.",
+  "best_use_cases": "Industrial branding, metal and rock artwork, gaming identities, dystopian posters, workshop graphics and rugged product campaigns.",
+  "negative_prompt": "",
+  "seo_title": "R3X Labs Industrial Rusted Metal — AI Image Prompt & Result — R3X Labs",
+  "meta_description": "Heavy industrial block typography with corroded steel, rust, peeling paint and hazard stripes.",
+  "published_date": "2026-10-23",
+  "published": true
+}

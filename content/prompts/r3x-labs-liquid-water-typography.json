@@ -1,0 +1,16 @@
+{
+  "title": "R3X Labs Liquid Water Typography",
+  "slug": "r3x-labs-liquid-water-typography",
+  "category": "Typography & 3D",
+  "description": "Transparent aqua lettering sculpted from liquid water with frozen splash detail on a clean white background.",
+  "image": "/assets/prompts/r3x-labs-liquid-water.webp",
+  "image_alt": "R3X LABS transparent blue liquid water typography with frozen splashes on white",
+  "prompt": "Create the exact text “R3X LABS” as sculptural 3D lettering made entirely from clear cyan-blue liquid water. Arrange “R3X” above “LABS” in a compact centered composition.\n\nThe letterforms must be thick, rounded and fully readable, with transparent glass-like water bodies, internal refraction, caustic highlights, smooth liquid curvature and deeper aqua edges. Add frozen splash crowns, arcs, droplets and fine suspended beads erupting naturally from letter edges without obscuring readability.\n\nUse a clean seamless white-to-pale-gray studio background, subtle soft contact shadow, bright high-key product lighting and crisp photoreal fluid simulation.\n\nTEXT REQUIREMENT: the composition must clearly read exactly “R3X LABS”. No extra text, no added symbols, no misspellings.",
+  "why_it_works": "The prompt specifies both the optical properties of water and the physical behavior of splashes. Keeping the background minimal makes the material effect easy to read and isolates the typography.",
+  "best_use_cases": "Clean tech branding, beverage concepts, summer campaigns, splash graphics, product ads, editorial typography and material studies.",
+  "negative_prompt": "",
+  "seo_title": "R3X Labs Liquid Water Typography — AI Image Prompt & Result — R3X Labs",
+  "meta_description": "Transparent aqua lettering sculpted from liquid water with frozen splash detail on a clean white background.",
+  "published_date": "2026-10-23",
+  "published": true
+}

@@ -1,0 +1,16 @@
+{
+  "title": "R3X Labs Autumn Embroidered Patch",
+  "slug": "r3x-labs-autumn-embroidered-patch",
+  "category": "Typography & 3D",
+  "description": "Warm chenille lettering framed by embroidered leaves, acorns and berries in an autumn patch composition.",
+  "image": "/assets/prompts/r3x-labs-autumn-embroidered.webp",
+  "image_alt": "R3X LABS fluffy autumn chenille patch surrounded by embroidered leaves berries and acorns",
+  "prompt": "Create a large premium embroidered chenille patch reading exactly “R3X LABS”, arranged “R3X” above “LABS”.\n\nMake the lettering extremely thick, rounded and fluffy with plush looped chenille texture and raised stitched borders. Use a warm autumn palette: burnt orange, deep cherry red, golden mustard and cream.\n\nSurround the text with a dense handcrafted embroidered composition of autumn maple and oak leaves, acorns, red berries, small cream cloud-like tufts and tiny golden star stitches. Add a dark burnt-orange embroidered outer border, visible thread direction, tactile raised layers, realistic fabric fibers and stitching.\n\nIsolate the patch on a clean white background with a soft studio shadow and premium collectible patch presentation.\n\nTEXT REQUIREMENT: the central lettering must read exactly “R3X LABS”. No other words or lettering.",
+  "why_it_works": "The prompt defines a clear foreground hierarchy: large chenille text first, seasonal embroidery second. Restricting decoration to recognizable autumn objects prevents the border from becoming visual noise.",
+  "best_use_cases": "Seasonal merchandise, fall campaigns, embroidered patch concepts, cozy apparel graphics, craft branding and autumn social assets.",
+  "negative_prompt": "",
+  "seo_title": "R3X Labs Autumn Embroidered Patch — AI Image Prompt & Result — R3X Labs",
+  "meta_description": "Warm chenille lettering framed by embroidered leaves, acorns and berries in an autumn patch composition.",
+  "published_date": "2026-10-23",
+  "published": true
+}

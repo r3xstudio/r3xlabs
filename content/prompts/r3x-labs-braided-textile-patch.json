@@ -1,0 +1,16 @@
+{
+  "title": "R3X Labs Braided Textile Patch",
+  "slug": "r3x-labs-braided-textile-patch",
+  "category": "Typography & 3D",
+  "description": "Soft pastel cord typography with braided fibers, padded volume and embroidered patch construction.",
+  "image": "/assets/prompts/r3x-labs-braided-textile.webp",
+  "image_alt": "R3X LABS pastel braided cord letters in a plush embroidered patch style",
+  "prompt": "Create a premium embroidered textile badge reading exactly “R3X LABS”, arranged “R3X” above “LABS”.\n\nBuild every letter from thick braided cord and yarn with visibly interwoven fibers and plush padded volume. Use a pastel palette of candy pink, mint green, soft lavender and cream, alternating colors by character. Add raised cream rope outlines around each letter and a lavender stitched outer patch border.\n\nUse rounded bubble-like letter shapes, realistic textile weave, thread fuzz, tiny fiber detail, handcrafted dimensional embroidery and clean edge stitching. Center the patch on a pure white background with a subtle soft studio shadow.\n\nTEXT REQUIREMENT: the badge must clearly read exactly “R3X LABS”. No extra words or decorative text.",
+  "why_it_works": "Material construction, color assignment and border hierarchy are separated clearly. This helps the model create actual braided cords and embroidered depth rather than a flat knitted texture.",
+  "best_use_cases": "Craft branding, playful merchandise, embroidered badge concepts, kids apparel, pastel identity systems and tactile social graphics.",
+  "negative_prompt": "",
+  "seo_title": "R3X Labs Braided Textile Patch — AI Image Prompt & Result — R3X Labs",
+  "meta_description": "Soft pastel cord typography with braided fibers, padded volume and embroidered patch construction.",
+  "published_date": "2026-10-23",
+  "published": true
+}

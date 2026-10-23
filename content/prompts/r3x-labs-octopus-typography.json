@@ -1,0 +1,16 @@
+{
+  "title": "R3X Labs Octopus Tentacle Typography",
+  "slug": "r3x-labs-octopus-typography",
+  "category": "Typography & 3D",
+  "description": "Deep-sea typography built entirely from glossy blue octopus tentacles and visible suction cups.",
+  "image": "/assets/prompts/r3x-labs-octopus.webp",
+  "image_alt": "R3X LABS letters formed from blue octopus tentacles with suction cups in a deep sea scene",
+  "prompt": "Create the exact text “R3X LABS” as large fluid organic 3D typography formed entirely from thick octopus tentacles. Arrange “R3X” on the first line and “LABS” on the second line.\n\nEvery character must remain clearly readable while the strokes curl, loop and wrap like living tentacles. Show rows of realistic pale suction cups along visible surfaces, wet glossy deep-blue skin, subtle purple and cyan reflections, organic folds and believable muscular volume.\n\nPlace the typography in a deep-sea environment with a dark navy background, faint particulate matter, tiny bubbles and soft volumetric blue light descending from above. Use dramatic depth, photoreal marine texture, centered composition and cinematic underwater contrast.\n\nTEXT REQUIREMENT: show only the exact readable text “R3X LABS”. No extra words, no misspellings, no random symbols.",
+  "why_it_works": "The letter construction is defined as anatomy rather than a surface texture. Requiring readable counters and strokes while specifying suction cups, skin and underwater lighting gives the model both structural and material guidance.",
+  "best_use_cases": "Ocean-themed branding, surreal typography, posters, album art, dark fantasy graphics, social media visuals and experimental lettering.",
+  "negative_prompt": "",
+  "seo_title": "R3X Labs Octopus Tentacle Typography — AI Image Prompt & Result — R3X Labs",
+  "meta_description": "Deep-sea typography built entirely from glossy blue octopus tentacles and visible suction cups.",
+  "published_date": "2026-10-23",
+  "published": true
+}
